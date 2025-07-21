@@ -1,1 +1,177 @@
+## 🟦 Embedded System Engineer Roadmap
 
+### 🛠️ Essential Skills
+- Proficiency in **C/C++**
+- Understanding microcontroller architectures (ARM, AVR, PIC)
+- Electronics basics: digital & analog
+- Serial communications: UART, SPI, I2C, CAN
+- RTOS fundamentals (FreeRTOS, Zephyr)
+- Debugging tools: JTAG, oscilloscopes, logic analyzers
+- PCB and schematic basics
+
+### 📚 Key Subtopics
+
+#### 🔹 Microcontroller Architectures
+- ARM Cortex-M, Cortex-A
+- AVR (ATmega, ATtiny)
+- PIC (PIC16, PIC18, PIC32)
+- ESP32, STM32, MSP430
+- Peripheral modules (Timers, ADC, DAC, PWM)
+
+#### 🔹 Memory Types
+- RAM vs ROM
+- Flash, EEPROM
+- Memory mapping
+
+#### 🔹 Interrupts
+- Hardware vs software interrupts
+- NVIC (Nested Vectored Interrupt Controller)
+- ISR (Interrupt Service Routine) examples
+
+#### 🔹 Timers & Counters
+- Configuring hardware timers
+- Use cases: delays, event counting, PWM generation
+
+#### 🔹 Communication Protocols
+- UART: Serial communication basics
+- SPI: Synchronous data transfer
+- I2C: Multi-master, multi-slave communication
+- CAN: Automotive and industrial networking
+
+#### 🔹 RTOS Fundamentals
+- Task scheduling
+- Inter-task communication
+- Mutexes, Semaphores
+
+#### 🔹 PCB & Schematic Design
+- Reading and creating schematics
+- Basic PCB layout principles
+
+### 🌐 Resources
+- [Embedded Systems - GeeksforGeeks](https://www.geeksforgeeks.org/embedded-systems/)
+- [PlatformIO for Embedded Development](https://platformio.org/)
+- [FreeRTOS Documentation](https://www.freertos.org/Documentation/RTOS_book.html)
+- [Microchip Developer Help](https://microchipdeveloper.com/)
+- [The Definitive Guide to ARM Cortex-M Microcontrollers](https://www.amazon.com/Definitive-Guide-ARM%C2%AE-Cortex-M3-Microcontrollers/dp/185617963X)
+
+---
+
+## 🟩 Firmware Engineer Roadmap
+
+### 🛠️ Essential Skills
+- Embedded C/C++ programming
+- Hardware interaction & register-level programming
+- Bootloader and firmware update mechanisms (OTA, USB)
+- Device driver development
+- Memory management (Flash, EEPROM)
+- Version control (Git)
+- Unit and integration testing
+
+### 📚 Key Subtopics
+
+#### 🔹 Bootloader Development
+- Boot sequence
+- Failsafe and recovery methods
+- Secure boot
+
+#### 🔹 Device Initialization & Register Programming
+- Peripheral configuration (GPIO, UART, SPI, I2C)
+- Direct Register Access vs HAL/driver libraries
+
+#### 🔹 Memory Management
+- Flash organization
+- EEPROM usage patterns
+- Firmware partitioning
+
+#### 🔹 Firmware Updates
+- OTA (Over-the-Air) update process
+- USB/Serial update flows
+- Rollback and integrity checks
+
+#### 🔹 Error Handling & Logging
+- Assert and exception handling
+- Persistent logging strategies
+
+#### 🔹 Testing & Validation
+- Unit testing frameworks (Ceedling, Unity)
+- Integration testing
+- Continuous Integration (CI) pipelines
+
+#### 🔹 Version Control
+- Git branching strategies (feature, release, hotfix)
+- Tagging and release management
+
+### 🌐 Resources
+- [Firmware Development Guide - Digi-Key](https://www.digikey.com/en/articles/firmware-development-guide)
+- [Modern Embedded Systems Programming (Udemy)](https://www.udemy.com/course/embedded-systems-programming-on-arm-cortex-m3-m4/)
+- [Writing Testable Firmware](https://interrupt.memfault.com/blog/unit-testing-firmware)
+- [STM32CubeIDE Tutorials](https://www.st.com/en/development-tools/stm32cubeide.html)
+
+---
+
+## 🟥 SoC (System-on-Chip) Engineer Roadmap
+
+### 🛠️ Essential Skills
+- Digital design fundamentals (logic gates, FSMs)
+- RTL (Register Transfer Level) coding (Verilog/VHDL/SystemVerilog)
+- SoC architecture (CPU, memory, bus interfaces, peripherals)
+- FPGA prototyping
+- Synthesis and timing analysis
+- Embedded Linux basics
+- Hardware/software co-design
+
+### 📚 Key Subtopics
+
+#### 🔹 Digital Logic Design
+- Combinatorial and sequential logic
+- Finite State Machines (FSMs)
+- Multiplexers, decoders, encoders
+
+#### 🔹 Hardware Description Languages
+- Verilog, VHDL, SystemVerilog syntax
+- RTL design patterns
+- Testbench creation
+
+#### 🔹 SoC Architecture
+- CPU cores (ARM, RISC-V, MIPS)
+- Bus protocols (AXI, AHB, APB, Wishbone)
+- Memory controllers
+- DMA, interrupt controllers
+
+#### 🔹 FPGA Prototyping
+- Synthesis, implementation, bitstream generation
+- Board bring-up and hardware debugging
+
+#### 🔹 Verification & Simulation
+- Functional and timing verification
+- UVM methodology
+- Co-simulation with software
+
+#### 🔹 Embedded Linux Integration
+- Bootloader, kernel, device tree
+- Driver development
+- Cross-compilation and deployment
+
+#### 🔹 Physical Design Basics
+- Floorplanning, placement, routing concepts
+- EDA tools overview (Cadence, Synopsys, Xilinx Vivado)
+
+### 🌐 Resources
+- [Digital Design and Computer Architecture](https://www.amazon.com/Digital-Design-Computer-Architecture-Second/dp/0123944244)
+- [ASIC World Tutorials](https://www.asic-world.com/)
+- [FPGA4Student Resources](https://www.fpga4student.com/)
+- [Linux for Embedded and SoC](https://bootlin.com/doc/training/embedded-linux/)
+- [IEEE Xplore - SoC Design](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8978)
+
+---
+
+## 💡 Contributing
+
+Have suggestions or want to add more resources?  
+Open an issue or submit a pull request!
+
+---
+
+<div align="center">
+  <strong>Happy Learning & Building! 🚀</strong>
+</div>
