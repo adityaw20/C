@@ -1,0 +1,133 @@
+# 🧩 PCB Design Roadmap
+
+This roadmap covers all essential topics for learning PCB (Printed Circuit Board) design from absolute beginner to advanced. Use this as a checklist or syllabus to guide your learning journey.
+
+---
+
+## 🌱 Beginner Level
+
+### 1. **Introduction to PCB**
+- What is a PCB?
+- Types of PCBs (Single, Double, Multi-layer)
+- Applications of PCBs
+
+### 2. **Basic Electronics Concepts**
+- Voltage, current, resistance, power
+- Ohm’s Law
+- Series and parallel circuits
+- Common components: Resistors, capacitors, inductors, diodes, transistors
+
+### 3. **Schematic Design Basics**
+- What is a schematic?
+- Symbols for electronic components
+- Netlists and connectivity
+- Reading and drawing schematics
+
+### 4. **PCB Design Software**
+- Overview of EDA tools (KiCad, Eagle, Altium, EasyEDA)
+- Installing and setting up software
+
+### 5. **Component Libraries**
+- Using built-in libraries
+- Creating custom components
+- Footprints and symbols
+
+---
+
+## 🟧 Intermediate Level
+
+### 6. **PCB Layout Fundamentals**
+- Board outline creation
+- Placement of components
+- Routing traces (manual vs auto-routing)
+- Vias and layers
+- Copper pours and ground planes
+
+### 7. **Design Rules & Constraints**
+- Trace width and spacing
+- Clearance and creepage
+- Design Rule Check (DRC)
+- Electrical and mechanical constraints
+
+### 8. **Signal Integrity Basics**
+- Impedance control
+- Crosstalk
+- Ground bounce
+- Differential pairs
+
+### 9. **Power Distribution**
+- Power plane design
+- Decoupling and bypass capacitors
+- Star grounding technique
+
+### 10. **Thermal Management**
+- Heat dissipation
+- Thermal vias
+- Component placement for thermal flow
+
+---
+
+## 🟦 Advanced Level
+
+### 11. **Multi-layer PCB Design**
+- Layer stack-up planning
+- Via types (through-hole, blind, buried)
+- Controlled impedance routing
+
+### 12. **High-Speed Design**
+- Signal integrity analysis
+- Transmission line theory
+- Length matching and skew
+
+### 13. **Design for Manufacturability (DFM)**
+- Panelization
+- Solder mask and silkscreen
+- Fiducials and tooling holes
+- PCB fabrication process overview
+- Design for Assembly (DFA)
+
+### 14. **Testing and Debugging**
+- Test points
+- Flying probe testing
+- In-circuit testing (ICT)
+- Design for Testability (DFT)
+- Common debugging tools (multimeter, oscilloscope)
+
+### 15. **PCB Documentation & Output Files**
+- Gerber files
+- Bill of Materials (BOM)
+- Assembly drawings
+- Pick and place files
+
+### 16. **Industry Standards & Best Practices**
+- IPC standards (IPC-2221, IPC-7351, etc.)
+- RoHS compliance
+- ESD protection
+- EMC/EMI considerations
+
+---
+
+## 🏁 Pro Tips & Advanced Topics
+
+- Blind and buried via design
+- HDI (High Density Interconnect) PCB techniques
+- Flex and rigid-flex PCB design
+- PCB design for RF circuits
+- EMC/EMI shielding techniques
+- Design review checklists
+- Collaboration and version control in PCB projects
+
+---
+
+## 📚 Recommended Learning Resources
+
+- [KiCad Official Documentation](https://docs.kicad.org/)
+- [PCB Design Tutorial - All About Circuits](https://www.allaboutcircuits.com/technical-articles/pcb-design-guidelines/)
+- [PCB Basics - SparkFun](https://learn.sparkfun.com/tutorials/pcb-basics)
+- [Altium Designer YouTube Channel](https://www.youtube.com/c/AltiumDesigner)
+- [PCB Design for Real-World EMI Control](https://www.amazon.com/PCB-Design-Real-World-Control-Second/dp/0790612205)
+
+---
+
+Stay persistent, practice often, and review your designs for improvement!  
+**Happy PCB Designing! 🧩**
